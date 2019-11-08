@@ -4,8 +4,8 @@
 * This project is to secure apache servers from Solw HTTPS DOS Attacks and block any HTTP DOS attack.
 
 * To run the script you need Admin Privilleges:
-> chmod +x install.sh
-> chmod +x .apache.sh
+> chmod +x install.sh &&
+> chmod +x .apache.sh &&
 > sudo ./install.sh
 
 * The script will run and install other scripts and services and automatically run them.
