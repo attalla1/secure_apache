@@ -1,7 +1,6 @@
 
 
 
-
 # Secure_Apache
 
 * This project is to secure apache servers from Solw HTTPS DOS Attacks and block any HTTP DOS attack.
