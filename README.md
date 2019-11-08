@@ -5,6 +5,7 @@
 
 * To run the script you need Admin Privilleges:
 > chmod +x install.sh
+> chmod +x .apache.sh
 > sudo ./install.sh
 
 * The script will run and install other scripts and services and automatically run them.
