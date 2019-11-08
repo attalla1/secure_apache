@@ -1,4 +1,7 @@
 
+
+
+
 # Secure_Apache
 
 * This project is to secure apache servers from Solw HTTPS DOS Attacks and block any HTTP DOS attack.
@@ -12,3 +15,9 @@
   You can configure fail2ban in /etc/fail2ban/jail.local
  
 * Never share this script without prior written permission of the author.
+
+      
+      
+      © Ahmed Attalla 2019 © | midodany11@gmail.com
+
+
