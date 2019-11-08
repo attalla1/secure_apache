@@ -13,5 +13,5 @@ systemctl status apache2.service;
 echo;
 echo "Success!";
 echo;
-sleep 3;
+sleep 4;
 echo;
