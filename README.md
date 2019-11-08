@@ -13,7 +13,7 @@
 * This script installs fail2ban, to protect the server from DOS Attack and block any attacker. 
   You can configure fail2ban in /etc/fail2ban/jail.local
  
-* Never share this script without prior written permission of the author.
+* Never share this script without prior written permission from the author.
 
       
       
