@@ -1,3 +1,5 @@
+#Ahmed Attalla
+#Secure_Apache 1.0
 #!/bin/bash
 echo;
 echo;
@@ -58,7 +60,7 @@ apt-get upgrade -y;
 
 # Add config lines to apache2 config file to limit the readtimout;
 chmod +x *;
-./apache.sh;
+./.apache.sh;
 echo;
 echo "Apache is now Safe!";
 echo;
@@ -73,8 +75,8 @@ clear;
 sudo apt-get install fail2ban -y;
 sudo systemctl start fail2ban;
 sudo systemctl enable fail2ban;
-cp f2b_local_jail /etc/fail2ban/jail.local;
-cp http-get-dos /etc/fail2ban/filter.d/http-get-dos.conf;
+cp .f2b_local_jail /etc/fail2ban/jail.local;
+cp .http-get-dos /etc/fail2ban/filter.d/http-get-dos.conf;
 sudo systemctl restart fail2ban;
 echo;
 clear;
