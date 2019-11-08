@@ -9,6 +9,6 @@ filter = http-get-dos
 logpath = /var/log/apache*/access.log
 maxretry = 400
 findtime = 400
-bantime = 600
+bantime = 44000
 ignoreip = 127.0.0.1
 action = iptables[name=HTTP, port=http, protocol=tcp]
