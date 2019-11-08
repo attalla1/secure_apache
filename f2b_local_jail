@@ -1,4 +1,4 @@
-#To stop DOS attack from remote host.
+# To stop DOS attack from remote host.
 [http-get-dos]
 enabled = true
 port = http,https
