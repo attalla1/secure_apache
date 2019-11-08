@@ -33,7 +33,7 @@ cat << "EOF";
                                          ""--.:_
                                                 ""--..___  
                                               
-                                Secure_Apatche 1.0 | Â© Ahmed Attalla 2019 Â©
+                                Secure_Apatche 1.0 | © Ahmed Attalla 2019 ©
 
 EOF
 sleep 6;
@@ -100,7 +100,7 @@ cat << "EOF"
                                              SSt  `------'`
 
 
-            Secure_Apatche 1.0 | Â© Ahmed Attalla 2019 Â©
+            Secure_Apatche 1.0 | © Ahmed Attalla 2019 ©
 
 EOF
 echo;
