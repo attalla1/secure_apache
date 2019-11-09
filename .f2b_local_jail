@@ -1,6 +1,7 @@
 # Ahmed Attalla
 # Secure_Apache 1.0
 # Fail2Ban local jail
+# Jail Magic 1.0
 # To stop DOS attack from remote host.
 [http-get-dos]
 enabled = true
