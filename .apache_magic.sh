@@ -25,11 +25,11 @@ cat << "EOF"
 _/j  L l\_!  _//^---^\\_    - Apache Magic 1.0 | © Ahmed Attalla 2019 ©
 
 EOF
-echo
-echo
+echo;
+echo;
 sleep 4;
-MOO="</IfModule>"
-OUTPUT="$(cat /etc/apache2/apache2.conf | tail -1)"
+MOO="</IfModule>";
+OUTPUT="$(cat /etc/apache2/apache2.conf | tail -1)";
 if [[ ${OUTPUT} != ${MOO} ]]
         then
         echo >> /etc/apache2/apache2.conf;
@@ -46,7 +46,7 @@ if [[ ${OUTPUT} != ${MOO} ]]
         sleep 4;
         echo;
 else
-        echo
+        echo;
         echo "Apache Magic already added, skipping ...";
         echo;
         sudo systemctl restart apache2.service;
