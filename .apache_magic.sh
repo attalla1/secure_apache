@@ -4,6 +4,30 @@
 # Add lines to apache2 config file to limit the readtimout (Apache Magic 1.0)
 #!/bin/bash
 echo;
+echo;
+cat << "EOF"
+
+                  .
+
+                   .
+         /^\     .
+    /\   "V"
+   /__\   I      O  o
+  //..\\  I     .
+  \].`[/  I
+  /l\/j\  (]    .  O
+ /. ~~ ,\/I          .
+ \\L__j^\/I       o
+  \/--v}  I     o   .
+  |    |  I   _________
+  |    |  I c(`       ')o
+  |    l  I   \.     ,/
+_/j  L l\_!  _//^---^\\_    - Apache Magic 1.0 | © Ahmed Attalla 2019 ©
+
+EOF
+echo
+echo
+sleep 4;
 cat /etc/apache2/apache2.conf | tail -1
 if [ ! !!="</IfModule>" ]
         then
