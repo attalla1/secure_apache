@@ -46,6 +46,7 @@ if [[ ${OUTPUT} != ${MOO} ]]
 else
         echo
         echo "Apache Magic already added, skipping ...";
+        echo;
         sudo systemctl restart apache2.service;
         systemctl status apache2.service;
 fi
