@@ -28,9 +28,9 @@ EOF
 echo;
 echo;
 sleep 4;
-MOO="</IfModule>";
-OUTPUT="$(cat /etc/apache2/apache2.conf | tail -1)";
-if [[ ${OUTPUT} != ${MOO} ]]
+Magic="</IfModule>";
+Magician="$(cat /etc/apache2/apache2.conf | tail -1)";
+if [[ ${Magician} != ${Magic} ]]
         then
         echo >> /etc/apache2/apache2.conf;
         echo "# Prevent Slow HTTP DOS" >> /etc/apache2/apache2.conf;
