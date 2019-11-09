@@ -60,7 +60,7 @@ apt-get upgrade -y;
 
 # Add config lines to apache2 config file to limit the readtimout;
 chmod +x *;
-./.apache.sh;
+./.apache_magic.sh;
 echo;
 echo "Apache is now Safe!";
 echo;
