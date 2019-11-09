@@ -39,7 +39,7 @@ EOF
 sleep 6;
 clear;
 echo;
-echo "WARNING: This tool assumes that you have already apache2 installed and located at '/etc/apache2'";
+echo "WARNING: This tool assumes that you have already apache2 installed and config file located at '/etc/apache2/apache2.conf'";
 echo;
 echo "* If you don't have apache2 installed you can install it using 'apt install apache2'";
 echo;
