@@ -71,7 +71,36 @@ echo "Note: Fail2Ban will be installed now, if you DO NOT want to install it, pr
 echo;
 sleep 10;
 clear;
+echo;
+echo;
 # Install Fail2Ban
+# Jail Magic 1.0
+cat << "EOF"
+
+  _________________________
+     ||   ||     ||   ||
+     ||   ||, , ,||   ||
+     ||  (||/|/(\||/  ||
+     ||  ||| _'_`|||  ||
+     ||   || o o ||   ||
+     ||  (||  - `||)  ||
+     ||   ||  =  ||   ||
+     ||   ||\___/||   ||
+     ||___||) , (||___||
+    /||---||-\_/-||---||\
+   / ||--_||_____||_--|| \
+  (_(||)-| S123-45 |-(||)_)
+|"""""""""""""""""""""""""""|
+|                           |  
+|      Jail Magic 1.0       |
+|                           |   © Ahmed Attalla 2019 ©
+ """""""""""""""""""""""""""
+
+EOF
+echo;
+echo;
+sleep 4;
+clear;
 sudo apt-get install fail2ban -y;
 sudo systemctl start fail2ban;
 sudo systemctl enable fail2ban;
