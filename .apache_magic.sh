@@ -38,6 +38,7 @@ if [[ ${OUTPUT} != ${MOO} ]]
         echo " RequestReadTimeout header=1,MinRate=500 body=1,MinRate=500" >> /etc/apache2/apache2.conf;
         echo "</IfModule>" >> /etc/apache2/apache2.conf;
         echo "Apache Magic Added Successfully!"
+        echo;
         sudo systemctl restart apache2.service;
         systemctl status apache2.service;
         echo;
