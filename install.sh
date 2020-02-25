@@ -33,7 +33,7 @@ cat << "EOF";
                                          ""--.:_
                                                 ""--..___  
                                               
-                                Secure_Apatche 1.0 | © Ahmed Attalla 2019 ©
+                                Secure_Apatche 1.0 | © Ahmed Attalla 2020 ©
 
 EOF
 sleep 6;
